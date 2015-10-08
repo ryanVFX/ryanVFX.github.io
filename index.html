@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="stylewhite.css">
+	<script type='text/javascript' src="js/jquery.js"></script>
+	<script type='text/javascript' src="js/java.js"></script>
+	<script type='text/javascript' src="js/zoomimages.js"></script>
+	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+	<script src="http://vjs.zencdn.net/c/video.js"></script>
+</head>
+
+	
+<body>
+
+<div id="complete_wrap">
+<!--<div id="mask">
+	<img id="Tmask" src="images/maskTop.png" alt="Smiley face" height="105" width="1004">
+	<img id="Rmask" src="images/maskR.png" alt="Smiley face" height="582" width="35">
+	<img id="Lmask" src="images/maskL.png" alt="Smiley face" height="540" width="35">
+</div>	-->											<!--Big reels-->
+<div id="bigReels">
+											<div id="close">
+												<div id="x">
+													<div id="x1"></div>
+													<div id="x2"></div>
+												</div>
+											</div>
+	<div id="mainBigReel">
+		<video id="reel_1" class="video-js1 vjs-default-skin" 
+						  preload="auto" width="960" height="540" data-setup="{}"  controls loop="true">
+			<source src="vids/Reel2013.mp4" type='video/mp4'>
+			<source src="vids/Reel2013.webm" type='video/webm'>
+			<source src="vids/Reel2013.ogv" type='video/ogg'>
+			Your browser does not support this video.
+		</video>
+	</div>
+	<div id="corpBigReel">
+		<video id="reel_1" class="video-js2 vjs-default-skin" 
+						  preload="auto" width="960" height="540" data-setup="{}"  controls loop="true">
+			<source src="vids/corpReel2013.mp4" type='video/mp4'>
+			<source src="vids/corpReel2013.webm" type='video/webm'>
+			<source src="vids/corpReel2013.ogv" type='video/ogg'>
+			Your browser does not support this video.
+		</video>
+	</div>
+	<div id="gamesBigReel">
+		<video id="reel_1" class="video-js3 vjs-default-skin" 
+						  preload="auto" width="960" height="540" data-setup="{}"  controls loop="true">
+			<source src="vids/gamesReel2013.mp4" type='video/mp4'>
+			<source src="vids/gamesReel2013.webm" type='video/webm'>
+			<source src="vids/gamesReel2013.ogv" type='video/ogg'>
+			Your browser does not support this video.
+		</video>
+	</div>
+</div>
+
+									
+									
+												<!--Full website beside Big reels above-->
+				<div id="wrap">
+					<div id="container">
+					
+<!--large videos of reels divs-->
+	
+					
+<!--my name-->
+<div id="infront">Ryan Lewis<br><h1>emmy award winning generalist</h1></div>
+
+
+
+				<div id="blocks">
+					<div class="box" id="round"></div> <!--initial setup-->
+					<div class="shadow"></div>
+					<!--clones-->
+					<div class="box" id="box2"></div><div class="box" id="box2"></div><div class="box" id="box2"></div>
+					<div class="box" id="round2"></div><div class="box" id="box2"></div><div class="box" id="box2"></div>
+					<div class="box" id="box2"></div><div class="box" id="box2"></div><div class="box" id="box2"></div>
+					<div class="box" id="box2"></div><div class="box" id="box2"></div><div class="box" id="box2"></div>
+					<div class="box" id="box2"></div><div class="box" id="box2"></div>
+					
+		
+					
+				</div>
+				</div>
+				
+				
+
+				
+				
+				
+										<!--navigation-->
+
+<div class="buttons">
+	<div id="slidingmenu" class="slidingmenu">
+		<div id="homewrap1">
+		<div id="home"><a href="#" class="home">home</a></div>
+		</div>
+		<div id="homewrap2">
+		<div id="reel"><a href="#" class="reel">reel</a></div>
+		</div>
+		<div id="homewrap3">
+		<div id="about"><a href="#" class="about">about</a></div>
+		</div>
+		<div id="homewrap4">
+		<div id="clients"><a href="#" class="clients">clients</a></div>
+		</div>
+		<div id="homewrap5">
+		<div id="contact"><a href="#" class="contact">contact</a></div>
+		</div>
+		<div id="homewrap6">
+		<div id="photography"><a href="#" class="photography">testimonials</a></div>
+		</div>
+		<div id="homewrap7">
+		<div id="tutorials"><a href="#" class="tutorials">tutorials</a></div>
+		</div>
+		<!--div id="homewrap8">
+		<div id="awards"><a href="#" class="awards">awards</a></div>
+		</div-->
+		
+	</div>
+	<div id="menuglow"></div>
+	</div>
+			
+					
+					<!--pages hover jquery-->
+<div id="pulsate">
+	<div class="c_home" id="c_home" ><p>click to go home and play</p></div>
+	<div class="c_reel" id="c_reel"><p>click to select a reel</p></div>
+	<div class="c_about" id="c_about"><p>click to know me</p></div>
+	<div class="c_clients" id="c_clients"><p>click to see those I create for</p></div>
+	<div class="c_contact" id="c_contact"><p>click to find me</p></div>
+	<div class="c_photography" id="c_photography"><p>click to read the words I create for</p></div>
+	<div class="c_tutorials" id="c_tutorials"><p>click to learn young padewon</p></div>
+	
+	
+																		<!--pages click jquery-->
+	<div class="click_home" id="click_home"><p></p></div>
+	
+	
+																		<!--reels page-->
+<div class="click_reel" id="click_reel">
+	<div id="reelwrap_parent">
+	
+		<div id="wrap_around_buttons">
+			<div id="reelwrap1">
+				<div id="main_reel">main reel</div>
+					<div id="main_reel_hover">
+						<video id="my_video_1" class="video-js vjs-default-skin" 
+						  preload="auto" width="120" height="50" data-setup="{}" autoplay loop="true">
+						  <source src="vids/thumbs/main_reel_thumb.mp4" type='video/mp4'>
+						  <source src="vids/thumbs/main_reel_thumb.webm" type='video/webm'>
+						  <source src="vids/thumbs/main_reel_thumb.ogv" type='video/ogg'>
+						</video>
+					</div>
+				</div>
+			<div id="reelwrap2">
+				<div id="corp_reel">corporate</div>
+					<div id="corp_reel_hover">
+						<video id="my_video_1" class="video-js vjs-default-skin" 
+							  preload="auto" width="120" height="50" data-setup="{}" autoplay loop="true">
+							  <source src="vids/thumbs/corp_reel_thumb.mp4" type='video/mp4'>
+							  <source src="vids/thumbs/corp_reel_thumb.webm" type='video/webm'>
+							  <source src="vids/thumbs/corp_reel_thumb.ogv" type='video/ogg'>
+						</video>
+					</div>
+				</div>
+			<div id="reelwrap3">
+				<div id="games_reel">games</div>
+					<div id="games_reel_hover">
+						<video id="my_video_1" class="video-js vjs-default-skin" 
+							  preload="auto" width="120" height="50" data-setup="{}" autoplay loop="true">
+							  <source src="vids/thumbs/games_reel_thumb.mp4" type='video/mp4'>
+							  <source src="vids/thumbs/games_reel_thumb.webm" type='video/webm'>
+							  <source src="vids/thumbs/games_reel_thumb.ogv" type='video/ogg'>
+						</video>
+					</div>
+				</div>
+		<div id="reelwrap4">
+			<div id="stills_reel">stills</div>
+				<div id="stills_reel_hover">
+					<video id="my_video_1" class="video-js vjs-default-skin" 
+						  preload="auto" width="120" height="50" data-setup="{}" autoplay loop="true">
+						  <source src="vids/thumbs/stills_reel_thumb.mp4" type='video/mp4'>
+						  <source src="vids/thumbs/stills_reel_thumb.webm" type='video/webm'>
+						  <source src="vids/thumbs/stills_reel_thumb.ogv" type='video/ogg'>
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+<div id="alltext">
+	<div id="reeltext">	
+		<div id="text_select">
+			<div id="a">s</div><div id="b">e</div><div id="c">l</div><div id="d">e</div><div id="e">c</div><div id="f">t</div> 
+		</div>
+		<div id="text_your">
+			<div id="g">y</div><div id="h">o</div><div id="i">u</div><div id="j">r</div>
+		</div>
+		<div id="text_reel">
+			<div id="k">r</div><div id="l">e</div><div id="m">e</div><div id="o">l</div>
+		</div>
+	</div>
+	<div id="reeltext2">	
+		<div id="text_select">
+			<div id="a2">s</div><div id="b2">e</div><div id="c2">l</div><div id="d2">e</div><div id="e2">c</div><div id="f2">t</div> 
+		</div>
+		<div id="text_your">
+			<div id="g2">y</div><div id="h2">o</div><div id="i2">u</div><div id="j2">r</div>
+		</div>
+		<div id="text_reel">
+			<div id="k2">r</div><div id="l2">e</div><div id="m2">e</div><div id="o2">l</div>
+		</div>
+		</div>
+		</div>
+	
+</div>
+</div>
+	
+																		<!--about page-->
+	<div class="click_about" id="click_about"><p>
+		<div id="scrollText">scroll bar</div>
+		<div id="wrapper">
+	
+	
+	
+	<div id="words">
+	<tr>
+  <td height="358">&nbsp;</td>
+  <td colspan="4"><div >
+    <p align="left"><strong>M</strong>y name is Ryan Lewis and I am a
+      high end Emmy Award winning 3D and web Generalist.</p>
+    <p align="left">I have been in the industry for over
+      15 years.&nbsp;<span xml:lang="en-GB" lang="en-GB">My
+        knowledge extends from storyboarding any project to full completion and
+        getting it fully ready for any media needed. I have managing experience
+        for over 10 years and hands-on experience for over 15 years. My
+        expertise range from conceptual design, digital design, 3D animation,
+        directing, green screens and blue screens, visual effects, CG and live, web design, web build
+        to compositing and completing the project for any media. </span></p>
+    <p align="left"><br />
+    </p>
+    <p align="left">I
+      am a person who uses everything and anything to his advantage, whether
+      it be a picture of something I find or something I have to create, or a
+      visual effect to complete a shot.</p>
+    <p align="left"><br />
+    </p>
+    <p align="left">I
+      am always widening my range and live to learn as much as I can. I am a
+      person who does not have to be told to go work, I will always take the
+      initiative and run with it. I have never missed a deadline and I do not
+      intend to ever miss one.</p>
+    <p align="left"><br />
+    </p>
+    <p xml:lang="en-GB" align="left" lang="en-GB">I
+      am fully licensed. and have an amazing team I work with on larger projects.</p>
+    <p align="left"><br />
+    </p>
+    <p align="left">I am driven by sheer passion and
+      love of the game and a belief that nothing is impossible!</p>
+    <p align="left"><br />
+    </p>
+    <p align="left"><strong>Latest experience</strong></p>
+    <p align="left"><br />
+    </p>
+
+  
+  
+    <ul>
+	  <li>Google vids for
+      international use in 2D and 3D translated in over 15 languages</li>
+	  <li>Full interactive video banners for
+      Nickelodeon</li>
+	  <li>Visual effects for film; The Human
+      Centipede, Gallowwalker, The Hike, The Three Musketeers 3D sterioscopic Trailer</li>
+      <li>Visual effects for TV, David Attenborough's First
+        Life ( Emmy winner), Top Gear</li>
+      <li>Visual effects and conceptual art for UK pilot</li>
+      <li>Branding for companies</li>
+      <li>Software Tester</li>
+      <li>cmiVFX Online Lecturer</li>
+	  <li>Short film and interactive comic for PWC (Award Winner: Excellence in the production of learning content : Gold Award)
+	  </li>
+	  <li>Full character builds, rigs, shader writes and animations for Pixelus california and Efexio New York</li>
+    </ul>
+    <p align="left"><br />
+    </p>
+    <p align="left"><strong>Set of skills</strong></p>
+    <p align="left"><br />
+    </p>
+    <p>VFX Director</p>
+	<p>VFX supervisor (on set off set)</p>
+    <p>Lighting (CG and real life)</p>
+    <p>Scene composition</p>
+    <p>Design</p>
+    <p>Motion Graphics</p>
+    <p>Web Design</p>
+	<p>html5, css3, javascript, jquery</p>
+    <p>Green and blue screen set-ups, keying and compositing</p>
+    <p>Compositing live and CG</p>
+    <p>Compositing digital design</p>
+    <p>Playblasts and blocks</p>
+    <p>Concept art</p>
+    <p>Modelling</p>
+    <p>Texturing</p>
+    <p>Rigging</p>
+    <p>Animation</p>
+    <p>VFX</p>
+    <p>Dynamics</p>
+    <p>Liquid dynamics</p>
+    <p>Rendering</p>
+    <p align="left">Editing</p><br />
+	<p align="left"><strong>Currently studying</strong></p>
+    <p align="left"><br />
+    </p>
+	<p>Speaking language: German (current state = intermediate knowledge) </p>
+	<p>Programming languages: css3 3D, jquery, javascript, html5 (current state = intermediate to professional knowledge), php (current state = beginner knowlege)</p>
+	<p>Math: line and point advanced equation math, calculus (current state = beginner knowlege)</p>
+  </div></td>
+  <td>&nbsp;</td>
+</tr>
+		
+	</div>
+</div></p></div>
+
+																		<!--clients page-->
+<div class="click_clients" id="click_clients">
+	<p>
+		<div id="logos">
+			<div id="clients_01"></div>
+			<div id="clients_02"></div>
+			<div id="clients_03"></div>
+			<div id="clients_04"></div>
+			<div id="clients_05">I always<br>apreciate<br>and respect<br>the work<br>that has been<br>trusted to me.<br>For this<br>I am always<br>truly grateful.<br><br>Thank you:)</div>
+		</div>
+	</p>
+</div>
+	
+	
+	
+	
+																		<!--contact page-->
+	<div class="click_contact" id="click_contact"><p>
+
+	
+
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+var p,i,x; if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+
+	<div id="wrapper" style="overflow: hidden">
+
+
+	<div id="form">
+<table align="center">
+<tbody>
+<tr>
+<td height="10">&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+
+</tr>
+<tr>
+  <td height="100">&nbsp;</td>
+  <td colspan="1"><form action="../FormtoEmail.php" method="post" name="" contact="">
+    <label><div id="form_text">name...</div></label>
+    <br />
+    <input name="name" id="name" type="text" />
+	
+    <label><div id="form_text">email...</div></label>
+	<br />
+     <input name="email" id="email" type="text"  />
+    
+    <label><div id="form_text">message... </div></label>
+	<br />
+     <textarea name="comments" cols="86" rows="10" id="comments"></textarea>
+	 <br />
+    <button id="submit" name="Submit" value="send" type="image" text="send" ><div id="send">send</div></button>
+    <br />
+  </form></td>
+  <td>&nbsp;</td>
+</tr>
+<tr>
+  <td height="21">&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+</tr>
+
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+
+	</div>
+</p></div>
+
+																	<!--testimonials page-->
+<div class="click_photography" id="click_photography">
+	<tr>
+	  <td height="358">&nbsp;</td>
+		<td colspan="4"><div id="words">
+			<p>
+				I have had the pleasure of working with Ryan on numerous productions, both for film and
+				for global clients such as Google and YouTube. The series of work produced has been a
+				runaway success, due in no small part to Ryan's creative ideas and Directing talent.<br />
+				Ryan excels as both a Visual Effects Artist and Director and he brings an infectious
+				energy and enthusiasm to every project he directs. Add this to his artistic vision and flair
+				and it is clear why his talent is so coveted.<br /><br />
+				I would recommend Ryan in a heartbeat.<br /><br />
+				Tom Dunn<br />
+				Managing Director<br />
+				Toaster Ltd<br />
+			</p><br /><p>please use orange scroll bar on the right to see more:)</p><br />
+			<p>
+				Ryan worked with us at ZOO for a period of 6 months on a project called First Life in
+				which David Attenborough describes the evolution of life on earth. The program won 3
+				Emmys including Best graphic design and art direction for our work.<br />
+				Ryan supervised a couple of key creature sequences on the project and was fully
+				responsible for the direction, look and feel and also the technical aspects of shader dev,
+				lighting set up and compositing. His creative direction and attention to detail and
+				ceaseless enthusiasm was absolutely visible in the final shots.<br />
+				He was instrumental in the production. He was also a great asset to the team and got
+				on extremely well with others at all levels and is always a real pleasure to deal with. I
+				would not hesitate in recommending.<br /><br />
+				James Prosser<br />
+				Head of Production<br />
+				ZOO Ltd.<br />
+			</p><br /><br />
+			<p>
+				As a small company we were a little intimidated by the 3d graphics industry. Ryan
+				helped us every step of the way, communicating on our level to realise our own ideas
+				mixed with innovative suggestions of his own. He was utterly enthusiastic throughout the
+				process and the end results were beyond our expectations.<br />
+				Thanks Ryan, we look forward to working with you again!<br /><br />
+				Garry Long<br />
+				Operations Director<br />
+				LaserZone<br />
+			</p><br /><br />
+			<p>
+				As a producer at Hollywood Vision, working on Feature Films & TV content, it was very
+				interesting to be introduced to Ryan Lewis. At that time we were in the early stages of a
+				science fiction series and we were looking for particularly a VFX supervisor and
+				additionally a director that understood the discipline of working extensively with CG.<br />
+				Although our initial conversations with Ryan were predominantly about him coming on as
+				a VFX supervisor, we soon began to consider him as a director. His vision and creativity
+				knows few boundaries and given a small nugget of information he can create an entire
+				tapestry of complex and awe inspiring depth, which is great in any project let alone one
+				that is set on a multitude of worlds inhabited by a multitude of creatures.<br />
+				We have since been working closely with Ryan to refine the concept, creatures and
+				worlds of the series and weave the tapestry to something we are all very pleased .<br />
+				In short I would recommend Ryan whole heartedly for
+				his level of creativity, vision, dedication and passion.<br /><br />
+				Ben Loyd Holmes<br />
+				Producer<br />
+				Hollywood Vision Films
+			</p><br /><br />
+			
+			<p>
+				We first started working with Ryan about 3 years ago now.
+				We recognized he had an amazing talent and eye for 3D, VFX and composition of how
+				to tackle any shot design.<br />
+				He has grown to be one of the most ambitious and most pivotal gears to get any answer
+				to any problem in animation and shot.<br />
+				His eye for shot composition and directing and vast amount of knowledge is bar none
+				and would highly and easily recommend Ryan for any position he applies for as you
+				know he will get the job done and exceed any expectations you may be after. He works
+				around the clock and was just amazing to have on board as VFX Supervisor and VFX
+				after shot Director for our in house works and feature film "The Hike" picked up and
+				distributed by Lionsgate recently.<br /><br />
+				Rupert Bryan<br />
+				Managing Director
+				Motion Picture House
+			</p><br /><br />
+			<p>
+				Ryan has worked with us on jobs that have required significant attention to detail within a tight deadline.<br />
+				He has been great to work with, making sure we have been able to deliver the best film possible. <br />
+				I would not hesitate to recommend him and look forward to working with him again.<br /><br />
+				Tim Fleming<br />
+				Executive Producer<br />
+				Plastic Pictures<br />
+			</p>
+		<div>
+	  </td>
+	</tr>
+</div>
+</div>
+</div>
+	
+																	<!--tutorials page-->
+<div class="click_tutorials" id="click_tutorials">
+	<div id="tutstext">
+		Here is a link to a paid dynamics course I did. Loads of free tuts coming soon:) <br><br><br> It wont be long:)</br></br></br><a id="dmm" href="http://cmivfx.com/store/314-Maya+DMM+Introduction">click here for Introduction to DMM course</a>
+	</div>
+</div>
+	
+</div>
+</div>
+
+
+
+<!--footer>website created by ryan lewis : best viewed in chrome</footer-->
+
+</body>
+
+</html>
